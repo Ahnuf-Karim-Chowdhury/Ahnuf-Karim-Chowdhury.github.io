@@ -1,0 +1,26 @@
+/* Default (Light Mode) */
+.visit-link {
+    color: #e43c3c; /* Normal color */
+    text-decoration: none;
+    font-weight: bold; /* Make text bold */
+    text-align: left; /* Align text to the right */
+    padding: 10px; /* Add padding */
+    font-size: 1.2rem; /* Increase font size */
+    transition: color 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Hover Effect - Light Mode */
+.visit-link:hover {
+    color: black; /* Change to black on hover in light mode */
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+    .visit-link {
+        color: #e43c3c; /* Keep normal color the same */
+    }
+
+    .visit-link:hover {
+        color: white; /* Change to white on hover in dark mode */
+    }
+}

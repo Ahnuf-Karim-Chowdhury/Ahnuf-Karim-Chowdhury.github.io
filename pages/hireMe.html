@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hire Me</title>
+    <link rel="stylesheet" href="hireMe.css">
+</head>
+<body>
+    <header>
+        <h1>Hire Me</h1>
+        <button id="theme-toggle">Toggle Theme</button>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contact Me for Job Opportunities</h2>
+            <form action="https://formspree.io/f/yourFormID" method="POST" id="hire-form">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="designation">Job Designation:</label>
+                <input type="text" id="designation" name="designation" required>
+
+                <label for="company">Company Name:</label>
+                <input type="text" id="company" name="company" required>
+
+                <label for="contact-info">Extra Contact Info:</label>
+                <input type="text" id="contact-info" name="contact-info">
+
+                <label for="description">Job Description:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Hire Me</p>
+    </footer>
+
+    <script src="hireMe.js"></script>
+</body>
+</html>
+
+
