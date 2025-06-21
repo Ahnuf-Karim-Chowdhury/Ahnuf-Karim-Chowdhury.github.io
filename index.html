@@ -64,7 +64,7 @@
                 But now, I also create my own websites/apps. Come get to know me more!
             </p>
             <button id="hireMeButton" class="about-me">
-                <span>CONTACT ME</span><i></i>
+                <span>HIRE ME</span><i></i>
             </button>
         </div>
     </section>
@@ -182,36 +182,36 @@
 
         <div class="examples">
             <div class="intern--exemple" data-aos="zoom-in-up">
-                <h1>ShoppinMart</h1>
+                <h1>Landing Page</h1>
                 <video width="320" height="240" controls>
-                    <source src="./videos/shoppingMart.mp4" type="video/mp4">
+                    <source src="./videos/landingPagr.mp4" type="video/mp4">
                 </video>
-                <a class="btn" href="https://github.com/Ahnuf-Karim-Chowdhury/ShoppingMart---A-Laravel-Shopping-Website.git" target="_blank">code on
+                <a class="btn" href="https://github.com/DevWebBrasil/LandingPageOneBitCode" target="_blank">code on
                     GITHUB</a>
             </div>
             <div class="intern--exemple" data-aos="zoom-in-up">
-                <h1>AutoVoyage</h1>
+                <h1>Job Calculator</h1>
                 <video width="320" height="240" controls>
-                    <source src="./videos/autovoyage.mp4" type="video/mp4">
+                    <source src="./videos/calculadora.mp4" type="video/mp4">
                 </video>
-                <a class="btn" href="https://github.com/Ahnuf-Karim-Chowdhury/AutoVoyage.git" target="_blank">code on GITHUB</a>
+                <a class="btn" href="https://github.com/DevWebBrasil/Job-Calculator" target="_blank">code on GITHUB</a>
             </div>
         </div>
 
         <div class="examples">
             <div class="intern--exemple" data-aos="zoom-in-up">
-                <h1>UniCraft</h1>
+                <h1>Urna Eletônica</h1>
                 <video width="320" height="240" controls>
-                    <source src="./videos/unicraft.mp4" type="video/mp4">
+                    <source src="./videos/urna.mp4" type="video/mp4">
                 </video>
-                <a class="btn" href="https://github.com/Ahnuf-Karim-Chowdhury/Uni-Craft.git" target="_blank">code on GITHUB</a>
+                <a class="btn" href="https://github.com/DevWebBrasil/UrnaEletronica" target="_blank">code on GITHUB</a>
             </div>
             <div class="intern--exemple" data-aos="zoom-in-up">
-                <h1>Strategic Defense OPs</h1>
+                <h1>Job Calculator</h1>
                 <video width="320" height="240" controls>
-                    <source src="./videos/devops.mp4" type="video/mp4">
+                    <source src="./videos/landingPagr.mp4" type="video/mp4">
                 </video>
-                <a class="btn" href="https://github.com/Ahnuf-Karim-Chowdhury/Laravel-Sanctum-Authentication-API-.git" target="blank">code on GITHUB</a>
+                <a class="btn" href="https://github.com/DevWebBrasil/Job-Calculator" target="blank">code on GITHUB</a>
             </div>
         </div>
     </div>
@@ -227,7 +227,7 @@
             <p>Get in touch, I'm sure I can add a lot to your company/business!</p>
         </div>
         <div class="button--contact">
-            <a href="https://x.com/Ahnuf_Karim?mx=2"
+            <a href="https://web.whatsapp.com/send?phone=5511982663159?text=Olá John! Vim através do seu portfólio! Vamos conversar?"
                 target="blank"> CONTACT
             </a>
         </div>
@@ -238,9 +238,36 @@
     <div class="suggestion-box">
         <h2>Anonymous Suggestion Box</h2>
         <form id="suggestionForm" action="https://formspree.io/f/xbldjqlr" method="POST">
-            <textarea name="suggestion" placeholder="Your suggestions..." required></textarea>
+            <input 
+                type="email" 
+                name="email" 
+                placeholder="Your email address" 
+                required
+                style="width: 100%;
+                       padding: 10px;
+                       margin-bottom: 10px;
+                       border: 1px solid #ccc;
+                       border-radius: 4px;
+                       box-sizing: border-box;
+                       font-size: 16px;
+                       font-family: inherit;">
+                       
+            <textarea 
+                name="suggestion" 
+                placeholder="Your suggestions..." 
+                required
+                style="width: 100%;
+                       padding: 10px;
+                       margin-bottom: 10px;
+                       border: 1px solid #ccc;
+                       border-radius: 4px;
+                       box-sizing: border-box;
+                       font-size: 16px;
+                       font-family: inherit;"></textarea>
+    
             <input type="hidden" name="_subject" value="New Suggestion!">
             <input type="hidden" name="_format" value="plain">
+    
             <button type="submit" class="button" style="background-color: #c31a27; 
                 color: white; 
                 font-size: 16px; 
@@ -252,9 +279,10 @@
                 transition: background-color 0.3s ease; 
                 text-transform: uppercase; 
                 letter-spacing: 1px;">Submit</button>
-
         </form>
     </div>
+    
+    
 
     <!-- Hire Me Section (Initially Hidden) -->
     <section id="hire-me" class="hire-me hire-me-hidden">
@@ -263,38 +291,59 @@
             <p>Are you looking for a passionate and skilled developer for your next project? I'm here to help bring your
                 ideas to life. Please fill out the form below, and let's start the conversation!</p>
 
-            <!-- Hire Me Form Linked to Formspree -->
-            <form action="https://formspree.io/f/yourformid" method="POST" class="hire-me-form">
-                <div class="form-group">
-                    <label for="email">Your Email (Required)</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="company">Your Company</label>
-                    <input type="text" id="company" name="company" placeholder="Enter your company name">
-                </div>
-
-                <div class="form-group">
-                    <label for="job-designation">Job Designation (Required)</label>
-                    <input type="text" id="job-designation" name="job_designation"
-                        placeholder="Enter your job designation" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="contact-info">Contact Info</label>
-                    <input type="text" id="contact-info" name="contact_info"
-                        placeholder="Enter your contact information">
-                </div>
-
-                <div class="form-group">
-                    <label for="description">Project Description (Required)</label>
-                    <textarea id="description" name="description" placeholder="Describe your project" rows="4"
-                        required></textarea>
-                </div>
-
-                <button type="submit" class="hire-me-btn">Send Message</button>
-            </form>
+            <!-- Suggestion Box Form -->
+<div class="suggestion-box">
+    <h2>Anonymous Suggestion Box</h2>
+    <form id="suggestionForm" action="https://formspree.io/f/xbldjqlr" method="POST">
+      <!-- Email Input -->
+      <input 
+        type="email" 
+        name="email" 
+        placeholder="Your email address" 
+        required
+        style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 16px;">
+  
+      <!-- Suggestion Input -->
+      <textarea 
+        name="suggestion" 
+        placeholder="Your suggestions..." 
+        required
+        style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 16px;"></textarea>
+  
+      <!-- Hidden fields for IP and browser info -->
+      <input type="hidden" name="user_ip" id="user_ip">
+      <input type="hidden" name="user_agent" id="user_agent">
+  
+      <!-- Subject and format -->
+      <input type="hidden" name="_subject" value="New Suggestion with IP and User Agent!">
+      <input type="hidden" name="_format" value="plain">
+  
+      <!-- Submit button -->
+      <button type="submit" style="background-color: #c31a27; color: white; font-size: 16px; font-weight: 700; border: none; padding: 10px; cursor: pointer; border-radius: 5px;">
+        Submit
+      </button>
+    </form>
+  </div>
+  
+  <!-- JS to fetch IP & User Agent -->
+  <script>
+    // Fetch public IP from ipinfo.io
+    fetch("https://ipinfo.io/json?token=ff653bff6e8ae9")
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById("user_ip").value = data.ip || "Unavailable";
+      })
+      .catch(() => {
+        document.getElementById("user_ip").value = "IP fetch failed";
+      });
+  
+    // Set user agent
+    document.getElementById("user_agent").value = navigator.userAgent;
+  </script>
+  
+                
+                            
+                    
         </div>
     </section>
 
@@ -388,4 +437,3 @@
 </body>
 
 </html>
-
